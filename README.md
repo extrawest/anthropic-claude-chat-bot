@@ -17,7 +17,6 @@ This project implements a chat bot using Anthropic's Claude AI model, with conve
 
 1. **Chat Model**: Uses Anthropic's Claude 3.5 Sonnet model for generating responses.
 2. **Conversation Memory**: Implements in-memory chat history to maintain context across interactions.
-3. **Message Filtering**: Limits the conversation history to the last 10 messages to manage context length.
 4. **Prompt Templates**: Utilizes ChatPromptTemplate for structuring prompts with system messages and placeholders.
 5. **Runnable Sequences**: Implements a chain of operations using RunnableSequence for processing inputs and generating responses.
 6. **Streaming Responses**: Supports streaming of AI responses for real-time output.
@@ -42,6 +41,10 @@ The script demonstrates the chat bot's capabilities by:
 1. Initializing with a pre-defined conversation history.
 2. Asking a question that requires remembering previous information.
 3. Streaming the AI's response to the console.
+
+## Demo
+
+https://github.com/user-attachments/assets/c28c4685-f4bd-4a79-9145-e74d12cd7261
 
 ## Customization
 
