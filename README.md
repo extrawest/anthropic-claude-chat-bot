@@ -2,6 +2,10 @@
 
 This project implements a chat bot using Anthropic's Claude AI model, with conversation memory and streaming capabilities. It's built using Node.js and leverages the LangChain framework for AI interactions.
 
+## Demo
+
+https://github.com/user-attachments/assets/c28c4685-f4bd-4a79-9145-e74d12cd7261
+
 ## Technologies and Frameworks Used
 
 - **Node.js**: The runtime environment for executing the JavaScript code.
@@ -41,10 +45,6 @@ The script demonstrates the chat bot's capabilities by:
 1. Initializing with a pre-defined conversation history.
 2. Asking a question that requires remembering previous information.
 3. Streaming the AI's response to the console.
-
-## Demo
-
-https://github.com/user-attachments/assets/c28c4685-f4bd-4a79-9145-e74d12cd7261
 
 ## Customization
 
